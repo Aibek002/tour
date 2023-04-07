@@ -1,29 +1,28 @@
 .logo {
     grid-area: l;
-  }
-  
-  .empty {
+}
+
+.empty {
     grid-area: e;
-  }
-  
-  .site1 {
+}
+
+.site1 {
     margin: auto;
     grid-area: s1;
-  
-  }
-  
-  .site2 {
+
+}
+
+.site2 {
     margin: auto;
     grid-area: s2;
-  }
-  
-  .site3 {
+}
+
+.site3 {
     margin: auto;
     grid-area: s3;
-  }
-  
-  .site4 {
+}
+
+.site4 {
     margin: auto;
     grid-area: s4;
-  }
-  
+}

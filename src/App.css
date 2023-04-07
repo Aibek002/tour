@@ -18,35 +18,6 @@
   grid-template-areas: "l e  s1 s2 s3 s4";
 }
 
-.logo {
-  grid-area: l;
-}
-
-.empty {
-  grid-area: e;
-}
-
-.site1 {
-  margin: auto;
-  grid-area: s1;
-
-}
-
-.site2 {
-  margin: auto;
-  grid-area: s2;
-}
-
-.site3 {
-  margin: auto;
-  grid-area: s3;
-}
-
-.site4 {
-  margin: auto;
-  grid-area: s4;
-}
-
 .content {
   background-color: rgba(3, 48, 67, 0.708);
   grid-area: c;
