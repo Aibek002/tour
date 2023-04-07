@@ -9,18 +9,20 @@
     "d"
     "f"
     "g";
+    background: url('https://images.wallpaperscraft.ru/image/single/puteshestvenniki_puteshestvie_turizm_169200_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .ReclamImg{
     grid-area: r;
-    background-color:darkolivegreen;
+
 }
 .a{
     grid-area: a;
 }
 .b{
     grid-area: b;
-    background-color:darkolivegreen;
 
 }
 .c{
@@ -28,7 +30,6 @@
 }
 .d{
     grid-area: d;
-    background-color:darkolivegreen;
 
 }
 .e{
@@ -36,7 +37,6 @@
 }
 .f{
     grid-area: f;
-    background-color:darkolivegreen;
 
 }
 .g{
