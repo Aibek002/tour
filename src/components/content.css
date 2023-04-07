@@ -1,0 +1,44 @@
+.content{
+    display: grid;
+    grid-template-rows: 500px 250px 250px 250px 250px 250px 250px;
+    grid-template-columns: 100%;
+    grid-template-areas: "r"
+    "a"
+    "b"
+    "c"
+    "d"
+    "f"
+    "g";
+}
+
+.ReclamImg{
+    grid-area: r;
+    background-color:darkolivegreen;
+}
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+    background-color:darkolivegreen;
+
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+    background-color:darkolivegreen;
+
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+    background-color:darkolivegreen;
+
+}
+.g{
+    grid-area: g;
+}
