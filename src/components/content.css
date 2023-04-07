@@ -1,44 +1,133 @@
-.content{
+.content {
     display: grid;
-    grid-template-rows: 500px 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 500px 400px 850px 250px 250px 250px 250px;
     grid-template-columns: 100%;
     grid-template-areas: "r"
-    "a"
-    "b"
-    "c"
-    "d"
-    "f"
-    "g";
+        "a"
+        "b"
+        "c"
+        "d"
+        "f"
+        "g";
     background: url('https://images.wallpaperscraft.ru/image/single/puteshestvenniki_puteshestvie_turizm_169200_1920x1080.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
-.ReclamImg{
+.Reclam {
     grid-area: r;
+    text-align: center;
+    margin-top: 10%;
+    color: rgba(0, 0, 59, 0.676);
 
 }
-.a{
-    grid-area: a;
+
+.Reclam .first {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    margin: 0 auto;
+
+
 }
-.b{
+
+.Reclam .second {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    margin: 0 auto;
+
+}
+
+.a {
+    grid-area: a;
+    display: grid;
+    margin: auto;
+    grid-template-rows: 60% 60% ;
+    grid-template-areas: 'firstDiv '
+    'secondDiv ';
+    
+   
+}
+.a .firstDiv{
+    display: grid;
+    background-color: rgba(240, 255, 255, 0.729);
+
+    grid-template-columns:  10% 30% 30% 30%; 
+    grid-template-areas: 'a f b c'
+    ;
+   
+}
+.a .secondDiv{
+    display: grid;
+    background-color: rgba(240, 255, 255, 0.729);
+
+    grid-template-columns:  10% 30% 30% 30%; 
+    grid-template-areas: 'a f b c'
+    ;
+   
+}
+.a .f {
+    display: flex;
+    margin: auto;
+
+}
+.imgLogo{
+    width: 60px;
+    height: 50px;
+    margin: 20% auto;
+}
+.a .b{
+    display: flex;
+    margin: auto;
+
+}
+.a .c{
+    display: flex;
+    margin: auto;
+
+}
+.a .title{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+.a .titleText{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.a .text{
+    color: darkgray;
+    width: 50%;
+}
+.b {
     grid-area: b;
 
 }
-.c{
+
+.c {
     grid-area: c;
 }
-.d{
+
+.d {
     grid-area: d;
 
 }
-.e{
+
+.e {
     grid-area: e;
 }
-.f{
+
+.f {
     grid-area: f;
 
 }
-.g{
+
+.g {
     grid-area: g;
 }
