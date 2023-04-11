@@ -1,14 +1,11 @@
 .content {
+    width: 1400px;
     display: grid;
-    grid-template-rows: 500px 400px 850px 250px 250px 250px 250px;
+    grid-template-rows: 500px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "r"
         "a"
-        "b"
-        "c"
-        "d"
-        "f"
-        "g";
+    ;
     background: url('https://images.wallpaperscraft.ru/image/single/puteshestvenniki_puteshestvie_turizm_169200_1920x1080.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -42,96 +39,80 @@
 
 }
 
-.a {
+.item1 {
     grid-area: a;
     display: grid;
     margin: auto;
-    grid-template-rows: 60% 60% ;
-    grid-template-areas: 'firstDiv '
-    'secondDiv ';
-    
-   
-}
-.a .firstDiv{
-    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 'item1 '
+        'item2';
     background-color: rgba(240, 255, 255, 0.729);
 
-    grid-template-columns:  10% 30% 30% 30%; 
-    grid-template-areas: 'a f b c'
-    ;
-   
-}
-.a .secondDiv{
-    display: grid;
-    background-color: rgba(240, 255, 255, 0.729);
 
-    grid-template-columns:  10% 30% 30% 30%; 
-    grid-template-areas: 'a f b c'
-    ;
-   
+
 }
-.a .f {
+
+.item1 .firstLine {
+    display: grid;
+    grid-area: item1;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: ' a b c';
+    margin-left: 10%;
+
+}
+
+.item1 .secondLine {
+    display: grid;
+    grid-area: item2;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: 'a b c';
+    margin-left: 10%;
+
+
+}
+.c{
+    display: flex;
+}
+.b{
+    display: flex;
+}
+.a{
+    display: flex;
+
+}
+ .flexs {
     display: flex;
     margin: auto;
+    grid-area: f;
+
 
 }
-.bs{
+
+.bs {
     margin-left: 20px;
 }
-.imgLogo{
+
+.imgLogo {
     width: 60px;
     height: 50px;
     margin: 20px auto;
 
 }
-.a .b{
-    display: flex;
-    margin: auto;
 
-}
-.a .c{
-    display: flex;
-    margin: auto;
-
-}
-.a .title{
+.item1 .title {
     font-size: 45px;
     font-weight: 400;
     font-family: 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
 }
-.a .titleText{
+
+.item1 .titleText {
     font-weight: 600;
     font-size: 20px;
 
 }
-.a .text{
+
+.item1 .text {
     color: darkgray;
     width: 50%;
-}
-.b {
-    grid-area: b;
-
-}
-
-.c {
-    grid-area: c;
-}
-
-.d {
-    grid-area: d;
-
-}
-
-.e {
-    grid-area: e;
-}
-
-.f {
-    grid-area: f;
-
-}
-
-.g {
-    grid-area: g;
 }
