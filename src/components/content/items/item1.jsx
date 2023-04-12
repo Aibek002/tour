@@ -1,5 +1,5 @@
 import React from "react";
-import s from'./content.module.css'
+import s from'../content.module.css'
 const Item1 = () => {
     return (
 <nav className={s.item1}>

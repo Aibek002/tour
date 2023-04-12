@@ -1,7 +1,7 @@
 import React from "react";
 import s from'./content.module.css'
-import Item1 from "./item1";
-import Item2 from "./item2";
+import Item1 from "./items/tem1";
+import Item2 from "./items/item2";
 const Content = () => {
     return (
         <div className={s.content}>
