@@ -1,0 +1,80 @@
+.grids {
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 'b a  c d';
+    margin-top: 2%;
+    margin-left: 8%;
+
+
+
+
+}
+
+.itemGrid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 'itemFirst' 'itemSecond';
+}
+
+.tourImg {
+    width: 100%;
+    height: 13vw;
+}
+
+.itemGrid1 {
+    grid-area: a;
+    margin-left: 2%;
+
+    background-color: rgba(240, 248, 255, 0.684);
+
+}
+
+.itemGrid2 {
+    grid-area: b;
+    margin-left: 2%;
+
+    background-color: rgba(240, 248, 255, 0.684);
+
+
+
+}
+
+.itemGrid3 {
+    grid-area: c;
+    margin-left: 2%;
+    background-color: rgba(240, 248, 255, 0.684);
+
+}
+
+.itemGrid4 {
+    grid-area: d;
+    margin-left: 2%;
+    background-color: rgba(240, 248, 255, 0.684);
+}
+
+.itemFirst {
+    grid-area: itemFirst;
+}
+
+.itemSecond {
+    grid-area: itemSecond;
+
+}
+
+.TitlePlace {
+    color: rgba(2, 2, 57, 0.789);
+    font-size: 15px;
+    font-weight: 850;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.TextPlace {
+    color: rgba(2, 2, 57, 0.582);
+    font-size: 10px;
+    font-weight: 550;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
