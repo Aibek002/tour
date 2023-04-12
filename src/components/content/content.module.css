@@ -1,0 +1,136 @@
+.content {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 500px 400px 800px ;
+    grid-template-columns: 100%;
+    grid-template-areas: 'r'
+        'item1'
+        'item2'
+    ;
+    background: url('https://images.wallpaperscraft.ru/image/single/puteshestvenniki_puteshestvie_turizm_169200_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.Reclam {
+    grid-area: r;
+    text-align: center;
+    margin-top: 10%;
+    color: rgba(0, 0, 59, 0.676);
+
+}
+
+.Reclam .first {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    margin: 0 auto;
+
+
+}
+
+.Reclam .second {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    margin: 0 auto;
+
+}
+
+.item1 {
+    grid-area: item1;
+    display: grid;
+    margin: auto;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas:
+        'textContent'
+        'item1 '
+        'item2';
+    background-color: rgba(240, 255, 255, 0.729);
+
+
+
+}
+
+.textContent {
+
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    margin-left: 5%;
+    color: rgba(0, 0, 59, 0.676);
+}
+
+.item1 .firstLine {
+    display: grid;
+    grid-area: item1;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: ' a b c';
+    margin-left: 10%;
+
+}
+
+.item1 .secondLine {
+    display: grid;
+    grid-area: item2;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: 'a b c';
+    margin-left: 10%;
+
+
+}
+
+.c {
+    display: flex;
+}
+
+.b {
+    display: flex;
+}
+
+.a {
+    display: flex;
+
+}
+
+.flexs {
+    display: flex;
+    margin: auto;
+    grid-area: f;
+
+
+}
+
+.bs {
+    margin-left: 20px;
+}
+
+.imgLogo {
+    width: 60px;
+    height: 50px;
+    margin: 20px auto;
+
+}
+
+.item1 .title {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+.item1 .titleText {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.item1 .text {
+    color: darkgray;
+    width: 50%;
+}
